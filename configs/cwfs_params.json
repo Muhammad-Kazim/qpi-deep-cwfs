@@ -1,0 +1,90 @@
+{
+    "system_params": {
+        "WL": 5.3e-07,
+        "SPATIAL_RES": [
+            145e-09,
+            145e-09,
+            100e-09
+        ],
+        "GRID_SHAPE": [
+            500,
+            500,
+            200
+        ],
+        "N_BG": 1.518,
+        "DIGITAL_PX_SIZE": 6e-06,
+        "PAD": 256,
+        "PAD_MODE": "edge",
+        "LAP_NOISE": false,
+        "GAUSS_NOISE": 1e-06
+    },
+    "specimen_params": {
+        "NUM_ELEMENTS_ELLIPS": 5,
+        "CENTER_SIGMA_ELLIPS": [
+            5e-06,
+            5e-06,
+            1e-06
+        ],
+        "RADII_RANGE_ELLIPS": [
+            18e-06,
+            18e-06,
+            8e-06
+        ],
+        "RI_SIGMA_ELLIPS": 0.06,
+        "NUM_ELEMENTS_CUBES": 0,
+        "CENTER_SIGMA_CUBES": [
+            10e-06,
+            10e-06,
+            3e-06
+        ],
+        "RADII_RANGE_CUBES": [
+            15e-06,
+            15e-06,
+            8e-06
+        ],
+        "RI_SIGMA_CUBES": 0.03,
+        "SIGMA": 3,
+        "GRAD_MEDIAN_KERNEL": 7
+    },
+    "optics_params": {
+        "MAG": 40,
+        "PSC": [
+            0.01,
+            0.1
+        ],
+        "FOCUS_PLANE_VAR_DIST":{
+            "set": true,
+            "SIGMA": 5e-06,
+            "DEFAULT": 0e-06
+        },
+        "NA_RANGE": {
+            "set": true,
+            "MIN": 0.6,
+            "MAX": 0.9,
+            "DEFAULT": 0.85
+        }
+    },
+    "phase_mask_params": {
+        "PM_PROB": 0.5,
+        "PM_HEIGHT_RANGE": {
+            "set": true,
+            "MIN": 0.80e-7,
+            "MAX": 2.00e-7,
+            "DEFAULT": 5.78e-07
+        },
+        "PM_SIDE_LEN": 1.29e-05,
+        "PM_RI": 1.46,
+        "PM_SMOOTHING_RANGE": {
+            "set": true,
+            "MIN": 0.3,
+            "MAX": 1.0,
+            "DEFAULT": 0.3
+        },
+        "DIST_M_IM_RANGE": {
+        "set": true,
+	"MIN": 0.0014,
+	"MAX": 0.0024,
+	"DEFAULT": 0.00165
+        }
+    }
+}

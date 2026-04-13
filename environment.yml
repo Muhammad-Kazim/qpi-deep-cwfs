@@ -1,0 +1,9 @@
+name: qpi_deep_cwfs
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pip:
+      - py_cwfs_alg @ git+https://github.com/Muhammad-Kazim/py_cwfs_alg.git@main
+      - tensorboard
