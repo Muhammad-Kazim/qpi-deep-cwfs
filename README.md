@@ -15,14 +15,15 @@
 1. Create enviroment and download dependencies (OptiVolume package):
 ```bash
 conda env create --name env_name python=3.9
-conda env update --name env_name -f https://raw.githubusercontent.com/Muhammad-Kazim/OptiVolume/main/environment.yml
+conda env update --name env_name -f https://raw.githubusercontent.com/Muhammad-Kazim/OptiVolume/main/arxiv/environment.yml
 ```
 
 2. Clone repository and update environment:
 ```bash
 git clone https://github.com/Muhammad-Kazim/qpi-deep-cwfs.git
 cd qpi-deep-cwfs
-conda env update --name env_name -file environment.yml
+conda env update --name env_name --file environment.yml
+conda activate env_name
 ```
 
 3. To create dataset, update data_params.json in configs:
